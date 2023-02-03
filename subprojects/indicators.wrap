@@ -1,0 +1,12 @@
+[wrap-file]
+directory = indicators-2.2
+source_url = https://github.com/p-ranav/indicators/archive/refs/tags/v2.2.tar.gz
+source_filename = indicators-2.2.tar.gz
+source_hash = b768f1b7ca64a413503f72d5460cc617c1458c17fb7a8c0ee503d753e1f20d03
+patch_filename = indicators_2.2-2_patch.zip
+patch_url = https://wrapdb.mesonbuild.com/v2/indicators_2.2-2/get_patch
+patch_hash = 07b03d14b8985d9ebafb57b1a4986917b016dfd40546582b644546c34cd5de55
+wrapdb_version = 2.2-2
+
+[provide]
+indicators = indicators_dep

@@ -1,0 +1,12 @@
+[wrap-file]
+directory = tabulate-1.4
+source_url = https://github.com/p-ranav/tabulate/archive/refs/tags/v1.4.tar.gz
+source_filename = tabulate-1.4.tar.gz
+source_hash = c20cdc3175526a069e932136a7cbdf6f27b137bdb4fc5f574eb5a497228c8e11
+patch_filename = tabulate_1.4-2_patch.zip
+patch_url = https://wrapdb.mesonbuild.com/v2/tabulate_1.4-2/get_patch
+patch_hash = 6d8258dc94a12909347de4ae15acabbbcf6beca23b2ab75b32d7ba0a14c07524
+wrapdb_version = 1.4-2
+
+[provide]
+tabulate = tabulate_dep
