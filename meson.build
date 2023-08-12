@@ -13,12 +13,10 @@ src = files([
 deps = [
   dependency('fmt'),
   dependency('spdlog', default_options: ['compile_library=true', 'tests=false']),
-  dependency('tomlplusplus', default_options: ['compile_library=true']),
+  dependency('tomlplusplus'),
   dependency('argparse'),
   dependency('tabulate'),
   dependency('indicators'),
-
-  # dependency('hdf5', language: 'cpp'),
   ]
 
 exe = executable('icecream',
