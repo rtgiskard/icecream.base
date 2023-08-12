@@ -2,7 +2,6 @@
 #define INCLUDE_CONFIG_H
 
 #include <string>
-#include <string_view>
 #include <map>
 #include <argparse/argparse.hpp>
 

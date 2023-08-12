@@ -41,7 +41,7 @@ TEST_CASE("spdlog_test") {
 	             SPDLOG_VER_MINOR,
 	             SPDLOG_VER_PATCH);
 
-	logger->info("log level: {}", logger->level());
+	logger->info("log level: {}", spdlog::level::to_string_view(logger->level()));
 
 	logger->warn("Easy padding in numbers like {:08d}", 12);
 	logger->critical("Support for int: {0:d};  hex: {0:x};  oct: {0:o}; bin: {0:b}", 42);

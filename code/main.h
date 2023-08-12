@@ -4,5 +4,6 @@
 #include "args.h"
 #include "config.h"
 #include "log.h"
+#include "utils.h"
 
 #endif
