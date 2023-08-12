@@ -2,3 +2,10 @@
 
 由未完成的个人项目中提取，可看作一个终端程序框架，涉及：日志，配置解析，
 参数解析，格式化输出，单元测试。
+
+== 许可
+
+此项目基于 https://www.gnu.org/licenses/gpl-3.0.html[GPLv3] 或其后续版本进行授权。
+
+This project is licensed under the terms of the https://www.gnu.org/licenses/gpl-3.0.html[GPLv3]
+or any later version.
